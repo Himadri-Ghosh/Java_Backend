@@ -1,8 +1,12 @@
 # Eclipse workspace metadata
 eclipse-workspace/.metadata/
 
-# Eclipse configuration
-.metadata/
+# Java compiled files
+*.class
+
+# Eclipse settings
 .settings/
-.project
-.classpath
+
+# Operating system files
+.DS_Store
+Thumbs.db
