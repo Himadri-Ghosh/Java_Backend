@@ -1,0 +1,22 @@
+package com.practice.objects.staticBlock;
+
+public class User2 
+{
+	String name;
+	int age;
+	String address;
+	
+	static
+	{
+		System.out.println("This is from static block");
+	}
+	
+	User2(String _name, int _age, String _address)
+	{
+		this.name = _name;
+		this.age = _age;
+		this.address = _address;
+		
+		System.out.println("User2.User2() ..........");
+	}
+}

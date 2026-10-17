@@ -1,0 +1,15 @@
+package com.kodewala.oops;
+
+public class Bank {
+
+	public static void main(String[] args) 
+	{
+		AccountDetails account = new AccountDetails("Rahul", "6372929237", 3000);
+		
+		account.doDebit(4200);
+		System.out.println("Account Holder : " + account.accountHolder);
+		System.out.println("Account Number : " + account.accountNumber);
+		System.out.println("Balance : " + account.getBalance());
+	}
+
+}

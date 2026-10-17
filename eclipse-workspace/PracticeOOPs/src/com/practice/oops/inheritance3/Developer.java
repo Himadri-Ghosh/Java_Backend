@@ -1,0 +1,16 @@
+package com.practice.oops.inheritance3;
+
+public class Developer extends Employee
+{
+	Developer(String name, String address, double salary)
+	{
+		super(name, address, salary);
+	}
+	
+	public void projectWork(){
+		{
+			showDetails();
+			System.out.println(name + " completed the project");
+		}
+	}
+}

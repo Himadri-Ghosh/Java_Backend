@@ -1,0 +1,10 @@
+package com.practice.constructors1;
+
+public class Account1 {
+	
+	String name;
+	int age;
+	
+	
+
+}

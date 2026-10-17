@@ -1,0 +1,11 @@
+package com.practice.oops.inheritance.company;
+
+public class Manager 
+{
+	String department;
+	
+	Manager(String name, String empId, double salary, String department)
+	{
+		
+	}
+}

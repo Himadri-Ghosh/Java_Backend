@@ -1,0 +1,24 @@
+package com.practice.constructors4;
+
+class SuperUser1 extends Object
+{
+	SuperUser(){
+		super();
+	}
+	
+}
+
+public class User1 extends SuperUser 
+{
+	String name;
+	String userId;
+	String phoneNo;
+	
+	User1(String _name, String _userId, String _phoneNo)
+	{
+		super();
+		this.name = _name;
+		this.userId = _userId;
+		this.phoneNo = _phoneNo;
+	}
+}

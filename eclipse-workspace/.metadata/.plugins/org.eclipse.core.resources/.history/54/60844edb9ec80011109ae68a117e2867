@@ -1,0 +1,8 @@
+package com.practice.oops.inheritance.company;
+
+public class Manager 
+{
+	String department;
+	
+	Manager()
+}

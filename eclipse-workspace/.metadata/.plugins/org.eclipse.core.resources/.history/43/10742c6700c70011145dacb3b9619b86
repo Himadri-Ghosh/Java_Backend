@@ -1,0 +1,17 @@
+package com.practice.objects.hotstar;
+
+import com.practice.objects.hotstar.user.User1;
+
+public class Driver1 {
+
+	public static void main(String[] args) 
+	{
+		User1 user1 = new User1("guest", "free");
+		User1 user2 = new User1("guest", "free");
+		User1 user3 = new User1("guest", "free");
+		
+		User1 user4 = new User1("Kodewala", "Kw32932", "paid");
+		User1 user5 = new User1("guest", "free");
+	}
+
+}

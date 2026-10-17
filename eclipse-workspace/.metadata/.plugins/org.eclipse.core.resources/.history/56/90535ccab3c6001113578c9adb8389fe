@@ -1,0 +1,10 @@
+package com.kodewala.objectCreation;
+
+public class Drriver {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

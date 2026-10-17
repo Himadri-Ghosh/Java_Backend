@@ -1,0 +1,36 @@
+package com.practice.oops.encapsulation1;
+
+public class Employee 
+{
+	private String name;
+	private double salary;
+	
+	Employee(String name, double salary)
+	{
+		this.name = name;
+		
+		if(salary >= 0)
+		{
+			this.salary = salary;
+		}
+	}
+	
+	public void increaseSalary(int amount)
+	{
+		if(amount > 0)
+		{
+			salary += amount;
+			System.out.println("Salary updated");
+		}
+		else
+		{
+			System.out.println("Insufficient Balance");
+		}
+	}
+	
+	public double getSalary()
+	{
+		return salary;
+	}
+	
+}

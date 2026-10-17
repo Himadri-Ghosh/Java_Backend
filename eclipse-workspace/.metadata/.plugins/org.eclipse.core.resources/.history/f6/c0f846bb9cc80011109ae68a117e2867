@@ -1,0 +1,13 @@
+package com.practice.oops.inheritance3;
+
+public class Driver {
+
+	public static void main(String[] args) 
+	{
+		Dog dog = new Dog("Bruno", 4);
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,6 @@
+package com.practice.constructors5;
+
+public class Signup 
+{
+	User user1 = new User();
+}

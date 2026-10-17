@@ -1,0 +1,14 @@
+package com.practice.constructors2;
+
+public class Test2 {
+	
+	public static void main(String args[]) {
+		
+		Test1 user1 = new Test1("Raju", 16, "ABC High School", "Sector V, Kolkata");
+		Test1 user2 = new Test1("Abhi", 14, "XYZ High School", "Newtown, Kolkata");
+		
+		System.out.println("Name : " + user1.name + "Age : " + user1.age + "School : " + user1.schoolName + "Address : " + user1.address);
+		
+	}
+
+}

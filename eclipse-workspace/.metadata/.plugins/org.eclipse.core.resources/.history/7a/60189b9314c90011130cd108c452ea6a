@@ -1,0 +1,40 @@
+package com.kodewala.oops.inheritance3;
+
+class Account
+{
+	public void openAccount(String userId, String email)
+	{
+		System.out.println("Account.openAccount().....");
+	}
+}
+
+class SavingAccount extends Account
+{
+	public void openAccount()
+	{
+		System.out.println("SavingAccount.openAccount().....");
+	}
+}
+class SrCitAccount extends Account
+{
+	public void openAccount()
+	{
+		System.out.println("SavingAccount.openAccount().....");
+	}
+}
+class PensionAccount extends Account
+{
+	public void openAccount()
+	{
+		System.out.println("SavingAccount.openAccount().....");
+	}
+}
+
+public class Driver {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

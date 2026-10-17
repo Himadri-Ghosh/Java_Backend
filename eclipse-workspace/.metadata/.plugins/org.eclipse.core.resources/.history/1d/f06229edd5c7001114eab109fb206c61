@@ -1,0 +1,10 @@
+package com.practice.oops.encapsulation1;
+
+public class MobileShow {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.practice.stringBuilder;
+
+public class QueryGenerator 
+{
+	public StringBulder generatorQuery(int Salary, String empID)
+	{
+		
+	}
+}

@@ -1,0 +1,6 @@
+package com.kodewala.constructors6;
+
+public class ElectronicProduct extends Product 
+{
+	
+}

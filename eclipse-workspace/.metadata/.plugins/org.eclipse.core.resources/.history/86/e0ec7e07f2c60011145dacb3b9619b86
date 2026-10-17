@@ -1,0 +1,29 @@
+package com.practice.objects.staticBlock;
+
+class ParentUser1
+{
+	ParentUser1(){
+		System.out.println("This is from ParentUser1 constructor");
+	}
+}
+
+public class User1 extends ParentUser1
+{
+	String userName;
+	String userId;
+	String phoneNo;
+	
+	
+	
+	public User1(String _userName, String _userId, String _phoneNo)
+	{
+		this.userName = _userName;
+		this.userId = _userId;
+		this.phoneNo = _phoneNo;
+	}
+	
+	static
+	{
+		System.out.println("This is from static block");
+	}
+}

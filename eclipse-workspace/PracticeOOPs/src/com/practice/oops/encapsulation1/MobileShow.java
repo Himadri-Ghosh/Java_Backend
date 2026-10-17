@@ -1,0 +1,21 @@
+package com.practice.oops.encapsulation1;
+
+public class MobileShow {
+
+	public static void main(String[] args) 
+	{
+		Mobile phone = new Mobile();
+		
+		phone.setVolume(50);
+		phone.increaseVolume();
+		
+		System.out.println(phone.getVolume());
+		
+//		phone.decreaseVolume();
+		
+//		System.out.println(phone.getVolume());
+		
+		phone.setVolume(150);
+	}
+
+}

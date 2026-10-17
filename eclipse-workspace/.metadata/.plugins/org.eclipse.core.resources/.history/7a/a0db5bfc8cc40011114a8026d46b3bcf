@@ -1,0 +1,13 @@
+package com.practice.string1;
+
+public class Driver1 {
+
+	public static void main(String[] args) 
+	{
+		String str1 = "Raju";
+		String str2 = "Raju";
+		
+		System.out.println(str1 == str2);
+	}
+
+}

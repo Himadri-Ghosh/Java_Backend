@@ -1,0 +1,32 @@
+package com.kodewala.controlFlow;
+
+public class Discount 
+{
+	public String discountModule(int fare)
+	{
+		String suggetion;
+		
+		if(fare<=5000)
+		{	
+			suggetion = "No discount applied";
+			System.out.println(suggetion);
+		}
+		else if(fare>5000 && fare<=10000)
+		{
+			suggetion = "10% of total fare as a discount";
+			System.out.println(suggetion);
+		}
+		else if(fare>10000)
+		{
+			suggetion = "15% of total fare as a discount";
+			System.out.println(suggetion);
+		}
+		else
+		{
+			suggetion = "Maximum discount per customer is 1250 only";
+			System.out.println(suggetion);
+		}
+		
+		return suggetion;
+	}
+}

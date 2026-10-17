@@ -1,0 +1,36 @@
+package com.practice.control.flow1;
+
+public class DelivaryCharge 
+{
+	public int foodDelivary(int billAmount) 
+	{
+		int totalAmount = billAmount;
+		int charges;
+		if(billAmount < 0)
+		{
+			System.err.println("Enter a valid amount!!!");
+		}
+		else if(billAmount > 0 && billAmount < 200)
+		{
+			charges = 50;
+			totalAmount = billAmount + 50;
+		}
+		else if(billAmount >= 200 && billAmount <=499)
+		{
+			charges = 30;
+			totalAmount = billAmount + 30;
+		}
+		else if(billAmount >= 500 && billAmount <= 999)
+		{
+			charges = 10;
+			totalAmount = billAmount + 10;
+		}
+		else
+		{
+			totalAmount = billAmount;
+			System.out.println("You don't have to pay delivary charges.");
+		}
+		
+		return totalAmount;
+	}
+}

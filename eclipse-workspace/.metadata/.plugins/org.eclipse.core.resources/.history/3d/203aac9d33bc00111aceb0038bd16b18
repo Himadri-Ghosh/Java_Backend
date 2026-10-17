@@ -1,0 +1,22 @@
+package com.practice.control.flow1;
+
+public class MovieTicket 
+{
+	public void ticketCharges(int age, int under18, int adult, int senior)
+	{
+		int amount;
+		if(age > 0 && age < 5) {
+			System.out.println("You don't have to pay");
+		}
+		else if(age >= 5 && age > 18) {
+			amount = 100;
+		}
+		else if(age >= 18 && age <= 59)
+		{
+			amount = 200;
+		}
+		else {
+			amount = 120;
+		}
+	}
+}

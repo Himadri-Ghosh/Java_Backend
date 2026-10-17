@@ -1,0 +1,16 @@
+package com.practice.oops.inheritance.bank;
+
+public class SavingsAccount extends AccountDetails
+{
+	String accountType;
+	String accountNumber;
+	double balance;
+	
+	public SavingsAccount(String accountHolderName, String accountHolderAddress, String bankName, String accountType, String accountNumber, double balance) 
+	{
+		super(String accountHolderName, String accountHolderAddress, String bankName);
+		this.accountType = accountType;
+		this.accountNumber = accountNumber;
+		this.balance = balance;
+	}
+}

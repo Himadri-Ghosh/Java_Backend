@@ -1,0 +1,19 @@
+package com.kodewala.control.flow1;
+
+public class DiscountCalculation 
+{
+	public int discountPrice(int totalFare)
+	{
+		double finalPrice = totalFare;
+		
+		if(totalFare > 0 && totalFare <= 5000)
+		{
+			System.out.println("No discount applied.");
+		}
+		else if(totalFare >5000 && totalFare <= 10000)
+		{
+			System.out.println("Discount : " + (totalFare * 0.1));
+			finalPrice = totalFare - (totalFare * 0.1);
+		}
+	}
+}

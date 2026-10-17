@@ -1,0 +1,50 @@
+package com.practice.oops.encapsulation1;
+
+public class ATM 
+{
+	private int pin;
+	private int balance;
+	
+	public ATM(int pin, int balance)
+	{
+		this.pin = pin;
+		this.balance = balance;
+	}
+	
+	public boolean validatePIN(int enteredPIN)
+	{
+		return this.pin==enteredPIN;
+	}
+	
+	public double checkBalance(int enteredPIN)
+	{
+		if(validatePIN(enteredPIN))
+		{
+			return balance;
+		}
+		
+		System.out.println("Incorrect PIN");
+		return -1;
+	}
+	
+	public void withdraw(int enteredPIN, int amount)
+	{
+		if(!validatePIN(enteredPIN))
+		{
+			System.out.println("Incorrect PIN");
+		}
+		else if(amount <=0)
+		{
+			System.out.println("Invalid amount");
+		}
+		else if(amount > balance)
+		{
+			System.out.println("Insufficient Balance");
+		}
+		else
+		{
+			balance -= amount;
+			System.out.println("Please collect your cash");
+		}
+	}
+}

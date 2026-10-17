@@ -1,0 +1,20 @@
+package com.practice.constructors1;
+
+public class Account {
+	
+	int amount;
+	String name;
+	
+	Account(){
+		System.out.println("Inside Account()");
+	}
+	
+	Account(int _amount, String _name){
+		
+		System.out.println("Inside Account(int _amount, String _name)");
+		this.amount = _amount;
+		this.name = _name;
+		
+	}
+
+}

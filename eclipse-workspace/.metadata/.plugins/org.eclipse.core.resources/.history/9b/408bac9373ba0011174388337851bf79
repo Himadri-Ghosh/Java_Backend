@@ -1,0 +1,10 @@
+package com.kodewala.constructors4;
+
+public class Driver {
+	
+	public static void main(String args[]) 
+	{
+		User user = new User("Kodewala", "U132", "927394204");
+	}
+
+}

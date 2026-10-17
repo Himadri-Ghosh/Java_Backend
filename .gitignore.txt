@@ -1,0 +1,8 @@
+# Eclipse workspace metadata
+eclipse-workspace/.metadata/
+
+# Eclipse configuration
+.metadata/
+.settings/
+.project
+.classpath

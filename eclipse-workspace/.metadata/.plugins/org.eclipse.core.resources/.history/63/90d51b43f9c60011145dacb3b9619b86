@@ -1,0 +1,12 @@
+package com.practice.objects.instanceBlock;
+
+public class Account2 
+{
+	String accountNumber;
+	
+	Account2(String _accountNumber)
+	{
+		this.accountNumber = _accountNumber;
+		System.out.println("Account2.Account2()");
+	}
+}

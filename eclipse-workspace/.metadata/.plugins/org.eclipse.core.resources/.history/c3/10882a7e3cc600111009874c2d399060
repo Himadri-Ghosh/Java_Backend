@@ -1,0 +1,12 @@
+package com.practice.stringBuilder;
+
+public class Driver2 {
+
+	public static void main(String[] args) 
+	{
+		QueryGenerator generator = new QueryGenerator();
+		StringBuilder result = generator.generatorQuery(0, "emp3279");
+		System.out.println(result);
+	}
+
+}

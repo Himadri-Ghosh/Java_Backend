@@ -1,0 +1,15 @@
+package com.practice.string1;
+
+public class Driver2 {
+
+	public static void main(String[] args) 
+	{
+		String s1 = "There" + " is a " + "dog";
+		
+		String s2 =new String("There is a dog");
+		
+		System.out.println(s1 == s2);
+	
+	}
+
+}

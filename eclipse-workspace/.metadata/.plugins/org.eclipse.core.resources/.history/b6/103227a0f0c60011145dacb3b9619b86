@@ -1,0 +1,15 @@
+package com.practice.objects.staticBlock;
+
+public class User1 
+{
+	String userName;
+	String userId;
+	String phoneNo;
+	
+	public User1(String _userName, String _userId, String _phoneNo)
+	{
+		this.userName = _userName;
+		this.userId = _userId;
+		this.phoneNo = _phoneNo;
+	}
+}

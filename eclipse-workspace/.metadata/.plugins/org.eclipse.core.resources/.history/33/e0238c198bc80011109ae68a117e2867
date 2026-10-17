@@ -1,0 +1,16 @@
+package com.practice.oops.inheritance1;
+
+public class ElectronicProduct extends Product
+{
+	boolean isWarranty;
+	int warrantyInYears;
+	
+	ElectronicProduct(String productName, String description, int quantity, String status, boolean isWarranty, int warrantyInYears)
+	{
+		super(String productName, String description, int quantity, String status);
+		this.isWarranty = isWarranty;
+		this.warrantyInYears = warrantyInYears;
+	}
+	
+	
+}

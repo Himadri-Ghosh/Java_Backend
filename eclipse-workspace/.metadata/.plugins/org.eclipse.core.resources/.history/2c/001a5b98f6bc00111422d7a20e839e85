@@ -1,0 +1,16 @@
+package com.practice.arrays;
+
+public class Driver 
+{
+	public static void main(String args[])
+	{
+		int numbers[] = new int[5];
+		numbers[0] = 20;
+		numbers[1] = 78;
+		numbers[2] = 32;
+		numbers[3] = 90;
+		numbers[4] = 84;
+		
+		System.out.println(numbers.length);
+	}
+}

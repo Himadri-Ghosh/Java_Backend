@@ -1,0 +1,16 @@
+package com.practice.stringBuilder;
+
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+
+public class Driver1 {
+
+	public static void main(String[] args) 
+	{
+		StringBuilder sb = new StringBuilder("Kodewala");   // StringBuilder is mutable
+		
+		sb.append(" Academy");
+		
+		System.out.println(sb);
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.practice.loop1;
+
+public class MultiplyBy7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

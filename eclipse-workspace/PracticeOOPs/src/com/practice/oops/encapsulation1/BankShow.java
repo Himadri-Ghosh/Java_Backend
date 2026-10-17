@@ -1,0 +1,16 @@
+package com.practice.oops.encapsulation1;
+
+public class BankShow {
+
+	public static void main(String[] args) 
+	{
+		BankAccount account = new BankAccount(30000);
+		
+//		account.deposit(4000);
+		account.withdraw(2000);
+		
+		double balance = account.getBalance();
+		System.out.println(balance);
+	}
+
+}

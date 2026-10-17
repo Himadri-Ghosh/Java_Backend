@@ -1,0 +1,9 @@
+package com.practice.constructors6;
+
+public class Bank 
+{
+	public static void main(String args[])
+	{
+		Account("Shyam", "393747893903", 84000, "Newtown, Kolkata");
+	}
+}

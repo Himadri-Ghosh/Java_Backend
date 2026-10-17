@@ -1,0 +1,14 @@
+package com.kodewala.hotstar;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		
+		for(int i=1; i <= 1739200; i++) {
+			User user = new User("kodewala", "Id2938");
+		}
+		
+		System.out.println("live user count : " + User.liveUserCount);
+	}
+
+}

@@ -1,0 +1,30 @@
+package com.practice.oops.inheritance1;
+
+public class Driver1 {
+	
+	class Employee
+	{
+		String name = "Raj";
+		String address = "Newtown";
+		
+		private String empCode = "EMP293";
+		
+		public void markIn(empCode)
+		{
+			
+		}
+		
+	}
+	
+	class Manager extends Employee
+	{
+		
+	}
+
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

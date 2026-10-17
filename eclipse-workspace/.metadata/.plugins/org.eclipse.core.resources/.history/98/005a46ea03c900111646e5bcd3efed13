@@ -1,0 +1,23 @@
+package com.kodewala.oops.inheritance2;
+
+public class Clothing extends Product 
+{
+	String gender;
+	String quality;
+	
+	public Clothing(String productName, String description, int quantity, String status, String gender, String quality)
+	{
+		super(productName, description, quantity, status);
+		this.gender = gender;
+		this.quality = quality;
+		
+	}
+	
+	public void viewClothingDetails()
+	{
+		viewProductDetails();
+		
+		System.out.println("This is for " + gender + " only.");
+		System.out.println("Quality : " + quality);
+	}
+}

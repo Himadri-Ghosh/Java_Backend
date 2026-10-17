@@ -1,0 +1,23 @@
+package com.practice.string1;
+
+public class Driver1 {
+
+	public static void main(String[] args) 
+	{
+		String st1 = "Raju";
+		String st2 = "Kumar";
+		
+		String st3 = new String("RajuKumar");
+		
+//		System.out.println(st1 == st2);
+		
+		String st7 = st1.concat(st2);
+		
+		System.out.println(st7);
+		
+		System.out.println(st3);
+		
+		
+	}
+
+}

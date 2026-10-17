@@ -1,0 +1,27 @@
+package com.practice.sample;
+
+public class AmazonDiscount {
+
+	public static void main(String[] args) 
+	{
+		double orderAmount = 8500.0;
+		
+		if(orderAmount >= 10000)
+		{
+			System.out.println("Discount apply 20%");
+		}
+		else if(orderAmount >= 5000)
+		{
+			System.out.println("Disocunt apply 15%");
+		}
+		else if(orderAmount >= 2000)
+		{
+			System.out.println("Discount apply 10%");
+		}
+		else 
+		{
+			System.out.println("No discount available");
+		}
+	}
+
+}

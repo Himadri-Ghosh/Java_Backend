@@ -1,0 +1,22 @@
+package com.practice.control.flow1;
+import java.util.*;
+
+public class Driver1 
+{
+	public static void main(String args[])
+	{
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("Enter your Withdrawal amount : ");
+		int amount = scanner.nextInt();
+		
+		
+		System.out.print("Enter your Account balance : ");
+		int balance = scanner.nextInt();
+		
+		ATMWithdrawal withdrawal = new ATMWithdrawal();
+		withdrawal.cashWithdrawal(amount, balance);
+		
+		scanner.close();
+	}
+}

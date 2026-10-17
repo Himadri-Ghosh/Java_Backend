@@ -1,0 +1,14 @@
+package com.kodewala.loops1;
+
+public class AccountDetails 
+{
+	String holderName;
+	int balance;
+	String mobile;
+	public AccountDetails(String accountHolder, int balance, String mobile) 
+	{
+		this.accountHolder = accountHolder;
+		this.balance = balance;
+		this.mobile = mobile;
+	}
+}

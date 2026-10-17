@@ -1,0 +1,26 @@
+package com.practice.constructors4;
+
+class SuperTest4 extends Object{
+	SuperTest4(){
+		super();
+		System.out.println("This is Parent Class(Super Class)");
+	}
+}
+
+public class Test4 extends SuperTest4
+{
+	
+	String name;
+	String uId;
+	String phNo;
+	
+	Test4(String _name, String _uid, String _phNo){
+		super();
+		
+		this.name = _name;
+		this.uId = _uid;
+		this.phNo = _phNo;
+		System.out.println("This is Child Class");
+	}
+	
+}

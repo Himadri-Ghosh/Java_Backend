@@ -1,0 +1,31 @@
+package com.kodewala.objectCreation;
+
+class AccountMgmt
+{
+	public AccountMgmt() {
+		System.out.println("AccountMgmt.AccountMgmt()");
+	}
+}
+
+public class Account extends AccountMgmt
+{
+	String accountNumber;
+	
+	static
+	{
+		System.out.println("This is static init");
+	}
+	
+//	Instance Init Block --> this will get executed whenever object created.
+	{
+		System.out.println("Account IIB");
+	}
+	
+	public Account(String _accountNumber) 
+	{
+		super();      //  1st line
+//		call to the instance block --> IIB     ----> 2nd line
+		System.out.println("Account(String accountNumber)" + accountNumber);
+		this.accountNumber = _accountNumber;
+	}
+}

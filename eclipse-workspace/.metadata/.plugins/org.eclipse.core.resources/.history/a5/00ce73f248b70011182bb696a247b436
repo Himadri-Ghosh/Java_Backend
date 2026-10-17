@@ -1,0 +1,10 @@
+package com.practice.constructors1;
+
+public class Account {
+	
+	int amount;
+	int name;
+	
+	
+
+}

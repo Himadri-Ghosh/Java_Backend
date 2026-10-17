@@ -1,0 +1,12 @@
+package com.kodewala.oops.inheritance.multilevel;
+
+public class SavingAccount 
+{
+	String savingAccountNo;
+	String type;
+	
+	SavingAccount(String name, String address, String savingAccountNo, String type)
+	{
+		super(name, address);
+	}
+}

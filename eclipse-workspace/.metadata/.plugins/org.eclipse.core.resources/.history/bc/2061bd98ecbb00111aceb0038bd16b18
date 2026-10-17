@@ -1,0 +1,33 @@
+package com.kodewala.controlFlow;
+
+public class Discount 
+{
+	public double discountModule(int fare)
+	{
+		double discount;
+		
+		if(fare<=5000)
+		{	
+			discount = 0;
+			
+		}
+		else if(fare>5000 && fare<=10000)
+		{
+			discount = fare *(0.1);
+			
+		}
+		else if(fare>10000)
+		{
+			discount = fare *(0.15);
+		}
+		else
+		{
+			
+			if(discount>1250) {
+				discount = 1250;
+			}
+		}
+		
+		return discount;
+	}
+}

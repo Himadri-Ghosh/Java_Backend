@@ -1,0 +1,21 @@
+package com.practice.control.flow1;
+import java.util.*;
+
+public class Driver2 
+{
+	public static void main(String args[])
+	{
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("How many under 18s(5-18) are there? : ");
+		int under18 = scanner.nextInt();
+		
+		System.out.println("How many adults(18-59) are there? : ");
+		int adult = scanner.nextInt();
+		
+		System.out.println("How many senior citizen(60+) are there? : ");
+		int adult = scanner.nextInt();
+		
+		scanner.close();
+	}
+}

@@ -1,0 +1,10 @@
+package com.practice.constructors2;
+
+public class Test1 {
+	
+	String name;
+	int age;
+	String address;
+	
+
+}

@@ -1,0 +1,14 @@
+package com.practice.oops.inheritance3;
+
+public class Manager extends Employee
+{
+	public Manager(String name, String address, double salary) {
+		super(name, address, salary);
+	}
+	
+	public void couductMeeting()
+	{
+		showDetails();
+		System.out.println(name + " is couducting a meeting");
+	}
+}

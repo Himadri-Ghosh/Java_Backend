@@ -1,0 +1,10 @@
+package com.practice.constructors4;
+
+public class Driver1 {
+	
+	public static void main(String args[]) 
+	{
+		User1 user1 = new User1("Raju", "U1493", "934739827");
+	}
+
+}

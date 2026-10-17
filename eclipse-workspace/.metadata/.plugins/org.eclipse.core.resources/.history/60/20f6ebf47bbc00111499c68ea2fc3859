@@ -1,0 +1,17 @@
+package com.kodewala.arrays1;
+
+public class Driver 
+{
+	public static void main(String args[])
+	{
+		int prodctIds[] = new int[5];
+		
+		prodctIds[0] = 100;
+		prodctIds[1] = 84;
+		prodctIds[2] = 22;
+		prodctIds[3] = 58;
+		prodctIds[4] = 45;
+		
+		System.out.println(prodctIds[3]);
+	}
+}

@@ -1,0 +1,32 @@
+package com.practice.constructors2;
+
+class Invoice2 extends Object{
+	
+	int amount;
+	String itemName;
+	String orderId;
+	String customerName;
+	String customerAddress;
+	
+	Invoice(int _amount, String _itemName, String _orderId, String _customerName, String _customerAddress)
+	{
+		this.amount = _amount;
+		this.itemName = _itemName;
+		this.orderId = _orderId;
+		this.customerName = _customerName;
+		this.customerAddress = _customerAddress;
+	}
+	
+}
+
+public class Test3 {
+	
+	public static void main(String args[]) {
+		
+		Invoice inv = new Invoice(27000, "Redmi", "OR238284", "Raju", "Sector V, Kolkata");
+		
+		System.out.println("Invoice : "+ "Product : "+inv.itemName+ "; Price : "+inv.amount+"; Customer : "+inv.customerName+"; Order Address : "+inv.customerAddress);;
+		
+	}
+
+}

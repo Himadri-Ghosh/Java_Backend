@@ -1,0 +1,10 @@
+package com.practice.string1;
+
+public class UseFinal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

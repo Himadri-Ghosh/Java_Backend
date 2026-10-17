@@ -1,0 +1,21 @@
+package com.practice.sample;
+
+public class PositiveNumberCheck 
+{
+	private static void checkIfPositive(int num)
+	{
+		if(num>0)
+		{
+			System.out.println("The number is positive");
+		}
+	}
+
+	public static void main(String[] args) 
+	{
+		int num = 10;
+		
+		
+		
+	}
+
+}

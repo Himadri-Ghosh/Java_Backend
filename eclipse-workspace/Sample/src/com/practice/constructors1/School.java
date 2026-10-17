@@ -1,0 +1,26 @@
+package com.practice.constructors1;
+
+public class School {
+	
+	public static void main(String args[]) {
+		
+		System.out.println("----------Student1----------");
+		Student student1 = new Student("Raju", 17, "Science", "Sector V, Kolkata");
+		
+		System.out.println("Student Name : " + student1.studentName);
+		System.out.println("Student Age : " + student1.age);
+		System.out.println("Student Department : " + student1.dept);
+		System.out.println("Student Address : " + student1.address);
+		
+		System.out.println("------------Student2-----------");
+		Student student2 = new Student("Abhi", "Newtown, Kolkata");
+		
+		System.out.println("Student Name : " + student2.studentName);
+		System.out.println("Student Address : " + student2.address);
+		
+		System.out.println("-------------Student3------------");
+		Student student3 = new Student();
+		
+	}
+
+}

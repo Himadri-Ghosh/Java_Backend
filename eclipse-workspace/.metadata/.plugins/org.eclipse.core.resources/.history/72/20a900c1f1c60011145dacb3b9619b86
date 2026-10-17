@@ -1,0 +1,14 @@
+package com.practice.objects.staticBlock;
+
+public class Driver1 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Driver1.main() START");
+		
+		User1 user1 = new User1("rohit", "ID2839", "9835348493");
+		
+		System.out.println("Driver1.main() END");		
+	}
+
+}

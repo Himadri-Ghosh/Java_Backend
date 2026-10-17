@@ -1,0 +1,10 @@
+package com.practice.oops.encapsulation1;
+
+public class Account1
+{
+	String accountHolder;
+	String accountNumber;
+	private double balance;
+	
+	
+}

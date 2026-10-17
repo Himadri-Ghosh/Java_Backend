@@ -1,0 +1,87 @@
+package com.practice.control.flow1;
+
+public class DiscountCalculation 
+{
+	public void discountInfo(String cardType, int productAmount)
+	{
+		double totalAmount = productAmount;
+		double totalDiscount = 0;
+		
+		if(productAmount < 0) {
+			System.err.println("Amount should not be negative!!!");
+		}
+		else if(productAmount > 0 && productAmount<=5000) {
+			totalDiscount = 0;
+			totalAmount = productAmount;
+		}
+		else if(productAmount > 5000 && productAmount <= 10000)
+		{
+			
+			if(cardType == "SBICC")
+			{
+				totalDiscount = (productAmount * 0.075);
+				totalAmount = productAmount - totalDiscount;
+			}
+			else if(cardType == "AXISCC") {
+				totalDiscount = (productAmount * 0.1);
+				totalAmount = productAmount - totalDiscount;
+			}
+			else {
+				System.err.println("Others card are not allowed");
+			}
+		}
+		else if(productAmount >10000 && productAmount <= 20000)
+		{
+			if(cardType.equals("SBICC"))
+			{
+				totalDiscount = (productAmount * 0.1);
+				totalAmount = productAmount - totalDiscount;
+			}
+			else if(cardType == "SBICC" && cardType == "SBICASHBACKCC") {
+				double discount = (productAmount * 0.1);
+				double amount = productAmount - discount;
+				double additionalDiscount = (amount * 0.05);
+				if(additionalDiscount > 250) {
+					additionalDiscount = 250;
+				}
+				totalDiscount = discount + additionalDiscount;
+				totalAmount = productAmount - totalDiscount;
+			}
+			else {
+				System.err.println("Others card are not allowed");
+			}
+		}
+		else if(productAmount > 20000)
+		{
+			if(cardType == "SBICC")
+			{
+				totalDiscount = (productAmount * 0.15);
+				totalAmount = productAmount - totalDiscount;
+			}
+			else if(cardType == "AXISCC")
+			{
+				totalDiscount = (productAmount * 0.15);
+				totalAmount = productAmount - totalDiscount;
+			}
+			else if(cardType == "SBICC" && cardType == "SBICASHBACKCC") {
+				double discount = (productAmount * 0.15);
+				double amount = productAmount - discount;
+				double additionalDiscount = (amount * 0.05);
+				if(additionalDiscount > 500) {
+					additionalDiscount = 500;
+				}
+				totalDiscount = discount + additionalDiscount;
+				totalAmount = productAmount - totalDiscount;
+			}
+			else if(cardType == "") {
+				System.err.println("Card type is empty");
+			}
+			else {
+				System.err.println("Others card are not allowed");
+			}
+		}
+		
+		System.out.println("Total Amount : " + totalAmount);
+		System.out.println("Total Discount : " + totalDiscount);
+	}
+}

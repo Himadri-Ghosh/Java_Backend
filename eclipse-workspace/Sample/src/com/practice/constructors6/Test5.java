@@ -1,0 +1,12 @@
+package com.practice.constructors6;
+
+public class Test5 extends Test6 
+{
+	String location;
+	
+	Test5(String _name, int _age, String _dept, String _location)
+	{
+		super(_name, _age, _dept);
+		this.location = _location;
+	}
+}

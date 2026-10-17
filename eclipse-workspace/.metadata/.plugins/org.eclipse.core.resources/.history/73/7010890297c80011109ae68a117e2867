@@ -1,0 +1,15 @@
+package com.practice.oops.inheritance.bank;
+
+public class SavingsAccount 
+{
+	String accountType;
+	String accountNumber;
+	double balance;
+	
+	public SavingsAccount(String accountType, String accountNumber, double balance) 
+	{
+		this.accountType = accountType;
+		this.accountNumber = accountNumber;
+		this.balance = balance;
+	}
+}

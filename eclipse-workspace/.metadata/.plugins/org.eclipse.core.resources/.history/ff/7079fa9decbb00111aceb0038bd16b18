@@ -1,0 +1,10 @@
+package com.kodewala.controlFlow;
+
+public class Driver 
+{
+	public static void main(String args[])
+	{
+		Discount discount = new Discount();
+		discount.discountModule(20000);
+	}
+}
