@@ -1,9 +1,0 @@
-package com.practice.oops.inheritance1;
-
-public class ElectronicProduct extends Product
-{
-	boolean isWarranty;
-	int warrantyInYears;
-	
-	public ElectronicProduct(String productName, String description, int quantity, String status)
-}

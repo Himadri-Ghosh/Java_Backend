@@ -1,8 +1,0 @@
-package com.kodewala.oops.inheritance3;
-
-public class Developer 
-{
-	double salary;
-	
-	Developer(String name, String address, )
-}
