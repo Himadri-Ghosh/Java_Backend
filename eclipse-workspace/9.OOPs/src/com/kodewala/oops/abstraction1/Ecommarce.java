@@ -7,7 +7,7 @@ public class Ecommarce
 		createAccount(userName, phoneNo);
 		addAddress(delivaryAddress);
 		payment();
-		placeOredr();
+		placeOrder();
 		
 		return true;
 	}
@@ -30,7 +30,7 @@ public class Ecommarce
 		return "COD";
 	}
 	
-	private void placeOredr()
+	private void placeOrder()
 	{
 		System.out.println("Oredr Placed Successfully!!!");
 	}
