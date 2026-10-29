@@ -1536,3 +1536,54 @@
 2026-10-28 12:53:08.767: [INFO] BookmarkModelLoaded, ids_reassigned: 0
 2026-10-28 12:53:08.767: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-10-28 12:53:08.767: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-28 17:55:40.881: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-29 02:37:11.524: [INFO] CurrentProfilePath: C:\Users\HP\Documents\Kodewala Academy\Programs\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-29 02:37:11.524: [INFO] Profiles total count: 1
+2026-10-29 02:37:11.524: [INFO] Profile: name=Profile 1 path=C:\Users\HP\Documents\Kodewala Academy\Programs\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-28T17:21:09.249Z
+2026-10-29 02:37:11.524: [INFO] LastUsedProfileDir: C:\Users\HP\Documents\Kodewala Academy\Programs\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-29 02:37:11.524: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\HP\Documents\Kodewala Academy\Programs\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-28T17:21:09.249Z
+2026-10-29 02:37:11.524: [INFO] OnDoneLoading sync enabled: 0
+2026-10-29 02:37:11.524: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-29 02:37:11.524: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-29 02:37:11.524: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-29 02:37:54.745: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-29 02:39:56.890: [INFO] CurrentProfilePath: C:\Users\HP\Documents\Kodewala Academy\Programs\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-29 02:39:56.890: [INFO] Profiles total count: 1
+2026-10-29 02:39:56.890: [INFO] Profile: name=Profile 1 path=C:\Users\HP\Documents\Kodewala Academy\Programs\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-29T02:37:52.557Z
+2026-10-29 02:39:56.890: [INFO] LastUsedProfileDir: C:\Users\HP\Documents\Kodewala Academy\Programs\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-29 02:39:56.890: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\HP\Documents\Kodewala Academy\Programs\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-29T02:37:52.557Z
+2026-10-29 02:39:56.890: [INFO] OnDoneLoading sync enabled: 0
+2026-10-29 02:39:56.890: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-29 02:39:56.890: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-29 02:39:56.890: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-29 02:40:31.255: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-29 03:36:09.328: [INFO] CurrentProfilePath: C:\Users\HP\Documents\Kodewala Academy\Programs\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-29 03:36:09.328: [INFO] Profiles total count: 1
+2026-10-29 03:36:09.328: [INFO] Profile: name=Profile 1 path=C:\Users\HP\Documents\Kodewala Academy\Programs\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-29T02:37:52.557Z
+2026-10-29 03:36:09.328: [INFO] LastUsedProfileDir: C:\Users\HP\Documents\Kodewala Academy\Programs\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-29 03:36:09.328: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\HP\Documents\Kodewala Academy\Programs\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-29T02:37:52.557Z
+2026-10-29 03:36:09.328: [INFO] OnDoneLoading sync enabled: 0
+2026-10-29 03:36:09.328: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-29 03:36:09.328: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-29 03:36:09.328: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-29 03:49:31.678: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-29 03:49:41.468: [INFO] CurrentProfilePath: C:\Users\HP\Documents\Kodewala Academy\Programs\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-29 03:49:41.468: [INFO] Profiles total count: 1
+2026-10-29 03:49:41.468: [INFO] Profile: name=Profile 1 path=C:\Users\HP\Documents\Kodewala Academy\Programs\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-29T02:37:52.557Z
+2026-10-29 03:49:41.468: [INFO] LastUsedProfileDir: C:\Users\HP\Documents\Kodewala Academy\Programs\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-29 03:49:41.468: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\HP\Documents\Kodewala Academy\Programs\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-29T02:37:52.557Z
+2026-10-29 03:49:41.468: [INFO] OnDoneLoading sync enabled: 0
+2026-10-29 03:49:41.468: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-29 03:49:41.468: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-29 03:49:41.468: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-29 03:56:30.880: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-29 17:58:21.961: [INFO] CurrentProfilePath: C:\Users\HP\Documents\Kodewala Academy\Programs\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-29 17:58:21.961: [INFO] Profiles total count: 1
+2026-10-29 17:58:21.961: [INFO] Profile: name=Profile 1 path=C:\Users\HP\Documents\Kodewala Academy\Programs\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-29T02:37:52.557Z
+2026-10-29 17:58:21.961: [INFO] LastUsedProfileDir: C:\Users\HP\Documents\Kodewala Academy\Programs\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-29 17:58:21.961: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\HP\Documents\Kodewala Academy\Programs\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-29T02:37:52.557Z
+2026-10-29 17:58:21.961: [INFO] OnDoneLoading sync enabled: 0
+2026-10-29 17:58:21.961: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-29 17:58:21.961: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-29 17:58:21.961: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-29 17:58:36.289: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
