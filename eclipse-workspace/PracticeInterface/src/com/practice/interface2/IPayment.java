@@ -1,6 +1,6 @@
 package com.practice.interface2;
 
-public interface IPayment 
+public abstract interface IPayment 
 {
 	public abstract void billPayment();
 	public abstract void rechargePayment();
