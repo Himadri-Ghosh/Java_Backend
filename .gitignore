@@ -1,12 +1,21 @@
 # Eclipse workspace metadata
+
 eclipse-workspace/.metadata/
 
+# Eclipse generated files
+
+**/bin/
+**/target/
+
 # Java compiled files
+
 *.class
 
-# Eclipse settings
-.settings/
-
 # Operating system files
+
 .DS_Store
 Thumbs.db
+
+# Log files
+
+*.log

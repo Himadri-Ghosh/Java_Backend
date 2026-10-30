@@ -1,9 +1,0 @@
-package com.kodewala.constructors6;
-
-public class ElectronicProduct extends Product 
-{
-	public EcectronicProduct(String _name, int _price, String _productId) 
-	{
-		super(_name, _price, _productId);
-	}
-}

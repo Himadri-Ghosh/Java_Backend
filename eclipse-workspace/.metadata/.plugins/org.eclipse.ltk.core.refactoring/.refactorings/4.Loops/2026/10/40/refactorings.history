@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete element from project &apos;loops1&apos;&#x0D;&#x0A;- Original project: &apos;loops1&apos;&#x0D;&#x0A;- Original element: &apos;com.kodewala.loops3.Driver.java&apos;" description="Delete element" element1="/src&lt;com.kodewala.loops3{Driver.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1790826769540" subPackages="false" version="1.0"/>
-</session>
