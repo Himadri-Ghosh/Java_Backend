@@ -23,6 +23,14 @@ public class Driver {
 		Word word = new Word();
 		Image image = new Image();
 		
+		if(image instanceof Processable)
+		{
+			System.out.println("True");
+		}
+		else
+		{
+			System.out.println("False");
+		}
 		
 	}
 
