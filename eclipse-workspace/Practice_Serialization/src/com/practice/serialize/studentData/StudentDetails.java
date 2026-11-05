@@ -4,9 +4,7 @@ import java.io.Serializable;
 
 public class StudentDetails implements Serializable
 {
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 1L;
 	String name;
 	String address;
