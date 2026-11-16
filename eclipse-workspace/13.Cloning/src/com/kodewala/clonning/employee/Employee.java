@@ -6,7 +6,7 @@ public class Employee implements Cloneable
 	String empCode;
 	Address address;
 	
-	public Employee(String name, String empCString, Address address) {
+	public Employee(String name, String empCode, Address address) {
 		super();
 		this.name = name;
 		this.empCode = empCode;
